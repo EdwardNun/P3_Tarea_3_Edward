@@ -1320,3 +1320,23 @@ ul.link_menu li a:hover {
 .in_page .header {
      border-bottom: darkturquoise solid 2px;
 }
+
+
+
+body {
+     background-color: #f4f4f4;
+     padding: 20px;
+ }
+ .container {
+     max-width: 600px;
+     margin: 0 auto;
+ }
+ .form-group {
+     margin-bottom: 20px;
+ }
+ .form-group label {
+     font-weight: bold;
+ }
+ .btn-reservar {
+     margin-top: 20px;
+ }
