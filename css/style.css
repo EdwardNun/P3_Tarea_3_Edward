@@ -34,6 +34,34 @@
      box-sizing: border-box !important;
 }
 
+body {
+     background-color: #f4f4f4;
+     padding: 20px;
+ }
+ .container {
+     max-width: 600px;
+     margin: 0 auto;
+ }
+ .listado-libros {
+     margin-top: 20px;
+ }
+ .listado-libros h1 {
+     text-align: center;
+     margin-bottom: 20px;
+ }
+ .listado-libros .libro {
+     background-color: #fff;
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+ .listado-libros .libro h3 {
+     margin-bottom: 5px;
+ }
+ .listado-libros .libro p {
+     margin-bottom: 0;
+ }
+
 
 .orden{
      text-align: center;

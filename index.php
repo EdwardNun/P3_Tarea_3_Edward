@@ -70,6 +70,10 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="reservation.php">Reservar Libros</a>
                             </li>
+                       <li class="nav-item">
+                                 <a class="nav-link" href="disponibles.php">Disponibles</a>
+                              </li>
+
                            </ul>
                         </div>
                      </nav>
