@@ -64,6 +64,9 @@
                               <li class="nav-item">
                                  <a class="nav-link" href="contactos.php">Contactos</a>
                               </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="disponibles.php">Disponibles</a>
+                              </li>
                            </ul>
                         </div>
                      </nav>
