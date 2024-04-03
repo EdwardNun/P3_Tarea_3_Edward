@@ -70,6 +70,12 @@
                               <li class="nav-item">
                                  <a class="nav-link" href="contactos.php">Contactos</a>
                               </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="disponibles.php">Disponibles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="reservation.php">Reservar Libros</a>
+                            </li>
                            </ul>
                         </div>
                      </nav>
@@ -99,14 +105,13 @@
                $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
                // Consultar la base de datos para obtener la lista de autores
-               $sql = "SELECT titulo, tipo, precio, fecha_pub FROM titulos";
+               $sql = "SELECT titulo, precio, fecha_pub FROM titulos";
                $resultado = $conexion->query($sql);
 
                // Mostrar la información de los autores
                while ($fila = $resultado->fetch(PDO::FETCH_ASSOC)) {
                   echo '<div class="folder">';
                   echo '<h2>' . $fila['titulo'];
-                  echo '<p>'. $fila ['tipo']. '</p>';
                   echo '<p>'. '$'. $fila ['precio']. '</p>';
                   echo '<h4>'. 'Fue publicado en:'. '   ' .$fila['fecha_pub']. '</h4>';
                   echo '</div>';
